@@ -1,0 +1,7 @@
+node_modules
+.idea
+build
+!server/react-hr/build
+uploads
+package-lock.json
+yarn.lock

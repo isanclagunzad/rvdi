@@ -1,0 +1,34 @@
+# Set the default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure these filetypes use LF line endings
+*.php text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+
+# Binary files should be treated as-is
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.exe binary
+*.dll binary
+*.so binary
+
+# Exclude files that should not have line ending normalization
+*.bat -text
+*.exe -text
+*.dll -text

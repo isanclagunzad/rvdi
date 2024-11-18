@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Model;
+
+use Illuminate\Database\Eloquent\Model;
+
+class EmployeeAttendanceApprove extends BaseModel
+{
+    protected $table = 'employee_attendance_approve';
+    protected $primaryKey = 'employee_attendance_approve_id';
+    protected $fillable = [
+        'employee_attendance_approve_id',
+        'employee_id',
+        'finger_print_id',
+        'date',
+        'in_time',
+        'out_time',
+        'working_hour',
+        'approve_working_hour',
+        'created_by',
+        'updated_by'
+    ];
+
+    public function employee()
+    {
+        return $this->belongsTo(Employee::class, 'employee_id', 'employee_id');
+    }
+}

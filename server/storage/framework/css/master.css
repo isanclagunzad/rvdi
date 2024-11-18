@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYiFV0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFV0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0Uw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FV0Uw.ttf) format('truetype');
+}
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Normal Color*/
+/*Border radius*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+.top-left-part .dark-logo {
+  display: block;
+}
+.tiMenu {
+  color: #fff;
+}
+.sidebar {
+  background: white;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.hideMenu {
+  color: #6d7a93;
+  font-weight: normal;
+}
+#side-menu ul > li > a.active {
+  color: #c1170e;
+  font-weight: 400;
+}
+/*for yellow bg*/
+.bg-title .breadcrumb {
+  background: 0 0;
+  margin-bottom: 0;
+  float: none;
+  padding: 0;
+  margin-bottom: 9px;
+  font-weight: 700;
+  color: #777;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  height: auto;
+  margin-top: -6px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.select2-container .select2-selection--single {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 35px;
+}
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single {
+  border: 1px solid #d2d6de;
+  border-radius: 0;
+  padding: 8px 11px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  right: 1px;
+  width: 20px;
+}
+.breadcrumbColor a {
+  color: #41b3f9 !important;
+}
+tr td {
+  color: black !important;
+}
+.tr_header {
+  background-color: #EDF1F5;
+}
+table.dataTable thead th,
+table.dataTable thead td {
+  padding: 10px 18px;
+  border-bottom: 1px solid #e4e7ea;
+}
+.btnColor {
+  color: #fff !important;
+}
+.validateRq {
+  color: red;
+}
+.panel .panel-heading {
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+.btn_style {
+  width: 106px;
+}
+.error {
+  color: red;
+}
+/*# sourceMappingURL=master.css.map */
